@@ -1,1 +1,1 @@
-I am exploring Python and this repo includes my practice Python programs.
+I am exploring Python and this repo includes my Python programs.
