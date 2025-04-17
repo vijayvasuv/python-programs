@@ -4,11 +4,15 @@ class list:
         self.result = []
 
     def even(self):
+        """
         for i in self.list:
             if isinstance(i, int):
                 if i % 2 == 0:
                     self.result.append(i)
         return self.result
+        """
+
+        return [x for x in self.list if x % 2 == 0]
 
     def odd(self):
         for i in self.list:
@@ -46,7 +50,8 @@ class list:
 
 def main():
     new_list = list([1,2,3,4,5,6])
-    print((new_list.even()).under(5))
+    print((new_list.even()))
 
 if __name__ == "__main__":
     main()
+
